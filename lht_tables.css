@@ -90,4 +90,22 @@
         background-color: rgba(171, 171, 171, 0.6);
         color: rgb(11, 12, 145);
     }
-} 
+
+    td[data-date*="Feb"] {
+        background: rgba(232, 214, 148, 0.6);
+        box-shadow: gray 0px 0px 20px inset;
+    }
+
+    caption {
+        caption-side: top;
+        text-align: center;
+        padding-bottom: 10px; 
+        font-size: 1.2em;
+        border-spacing: 3px;
+    }
+
+    thead h1 {
+        background-color: rgb(154, 64, 3); 
+        color: white;
+    }
+}
